@@ -1,0 +1,16 @@
+RewriteEngine On
+
+RewriteRule ^user/([a-zA-Z0-9]+)$ mon-profil.php?id=$1
+RewriteRule ^accueil$ index.php
+RewriteRule ^notre-discord$ notre-discord.php
+RewriteRule ^nouveautes$ nouveautes.php
+RewriteRule ^connexion-inscription$  connexion-inscription.php
+
+RewriteRule ^includes/$  erreur404.php
+RewriteRule ^includes/[a-zA-Z0-9\.\-_]+$  erreur404.php
+
+RewriteRule ^stats/$  erreur404.php
+RewriteRule ^stats/[a-zA-Z0-9\.\-_]+$  erreur404.php
+
+
+

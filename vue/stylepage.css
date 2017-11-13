@@ -1,0 +1,196 @@
+body {
+	background: #ededed;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar {
+	background-color: #2f2f2f;
+	height: 80px;
+	margin: 0px 0px;
+}
+
+#menu {
+	padding: 25px 0px;
+
+}
+
+#menu li {
+	display: inline-block;
+	float: right;
+}
+
+#menu a {
+	padding: 0px 14px;
+	font-size: 17px;
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: lightgrey;
+}
+
+/* Menu Responsive */
+
+#menu-responsive {
+	padding: 15px 0px;
+}
+
+#menu-responsive li {
+	display: inline-block;
+	float: right;
+}
+
+#menu-responsive a {
+	padding: 0px 20px;
+	font-size: 18px;
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
+}
+
+#menu-responsive a:hover {
+	color: lightgrey;
+}
+
+
+.img-logo {
+	position: absolute;
+	border-radius: 70px;
+	margin: -25px 15px;
+}
+
+.title-page {
+	position: absolute;
+	padding: 10px 15px;
+	margin-top: 10px;
+	float: left;
+	color: #fff;
+	font-family: 'PT Sans', sans-serif
+}
+
+.infos-marquee {
+	background: lightblue;
+	height: 20px;
+	margin: 35px 0px;
+}
+
+.title-presentation {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.join-server {
+	font-family: 'PT Sans', sans-serif;
+}
+
+#connexion {
+	float: right;
+	margin: -380px 0px;
+}
+
+.widget-discord {
+	height: 400px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+footer {
+	background: #2f2f2f;
+	height: 30px;
+}
+
+.menu-burger {
+	float: right;
+	font-size: 30px;
+	color: #fff;
+	display: none;
+	cursor: pointer;
+}
+
+.fond-menu-responsive {
+	background-color: #2f2f2f;
+	height: 130px;
+	width: 100%;
+	display: none;
+}
+
+.avatar-index {
+	margin: 10px auto;
+	border-radius: 90px;
+}
+
+.search-bar {
+	background: lightblue;
+	width: 100%;
+	padding: 10px;
+	display: none;
+}
+
+.title-img {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	margin: 300px 300px;
+}
+
+.carousel-images {
+	text-align: center;
+	font-size: 100px;
+	margin: -60px auto;
+	cursor: pointer;
+}
+
+.color-cl {
+	color: blue;
+}
+
+.title-cl1 {
+	font-size: 55px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.p-cl1 {
+	font-family: 'PT Sans', sans-serif;
+}
+
+/* Media Queries */
+@media screen and (max-width: 760px) {
+
+	#menu {
+		display: none;
+	}
+
+	#menu-responsive {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.infos-marquee {
+		position: absolute;
+		margin: 70px 0px;
+	}
+
+	.fond-menu-responsive {
+		display: none;
+		position: absolute;
+		margin: 80px 0px;
+		text-align: center;
+		font-size: 23px;
+		height: auto;
+	}
+
+	.menu-burger {
+		display: block;
+		margin: 15px 10px;
+	}
+
+
+	.carousel-accueil {
+		display: none;
+	}
+
+
+}
