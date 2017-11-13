@@ -7,9 +7,4 @@
 		echo 'Exception reçue : ',  $e->getMessage(), "\n";
 	}
 
-
-	// bdd: web10925_db
-	//user: web10925_db
-	//password: bm06oVVidmuIindS
-
 ?>
