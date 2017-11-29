@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-	define('WEBSITE', 'http://localhost/DevHack/');
-
 	/*Connexion a la bdd*/
 	require 'includes/init_bdd.php';
 
