@@ -1,7 +1,7 @@
 <?php
 
 $header = "MIME-Version: 1.0\r\n";
-$header .= 'From: "DevHack.shost.ca"<support@devhack.shost.ca>'."\n";
+$header .= 'From: "DevHack.shost.ca"<support@devhack.fr.nf>'."\n";
 $header .= 'Content-Type:text/html; charset="utf-8"'."\n";
 $header .= 'Content-Transfer-Encoding: 8bit';
 
